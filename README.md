@@ -45,7 +45,3 @@ The pipeline generates:
 - `outputs/tables/output_index.csv`: inventory of generated outputs.
 - `outputs/tables/headline_results.json`: machine-readable headline results.
 - `tests/test_pipeline.py`: core integrity and output-coverage checks.
-
-## Interpretation
-
-The study is cross-sectional and self-reported. Regression results are conditional associations, not causal estimates. Classification performance is internally validated and is not evidence of deployment readiness. External validation, recalibration and subgroup assessment would be required before operational use.
