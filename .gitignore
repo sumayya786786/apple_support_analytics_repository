@@ -3,6 +3,5 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
-data/*.xlsx
 !data/README.md
 outputs/tables/manual_text_coding_template_PRIVATE.csv
