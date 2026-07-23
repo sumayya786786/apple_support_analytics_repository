@@ -1,0 +1,10 @@
+issue,decision,technical_justification
+Q14 and Q15 showed weak coherence,Retained separately,Spearman rho and two-item alpha did not support a reliable composite
+Modest event count,Restricted confirmatory classifier features,Reduced overfitting and preserved interpretability
+Turnaround structurally inapplicable to 12 respondents,Estimated H5 in applicable subset,Structural absence is not ordinary missingness
+Single train-test split unstable,Used repeated nested stratified cross-validation,Separated tuning from held-out evaluation
+Accuracy misleading under imbalance,Prioritised recall F1 and PR-AUC,Majority baseline had zero dissatisfied-class recall
+Random forest added complexity,Retained logistic as primary when held-out value was not superior,Interpretability preferred without stable gain
+Calibration less secure than discrimination,Restricted deployment claims,Only 22 primary dissatisfied events and no external validation
+Helpfulness overlapped with communication,Reported H2 as not independently supported,HC3 interval crossed zero in the joint model
+Free-text corpus modest and repetitive,Used manual multi-label coding with unique-wording sensitivity,Themes contextualise rather than estimate population prevalence

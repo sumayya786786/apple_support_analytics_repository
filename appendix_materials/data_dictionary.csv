@@ -1,0 +1,23 @@
+variable,source,coding,analytical_role
+appointment_access,Q8,1-5,Exploratory service-process predictor
+waiting_acceptability,Q9,1-5,Confirmatory predictor H3
+communication_quality,Q10,1-5,Confirmatory predictor H1
+staff_helpfulness,Q11,1-5,Confirmatory predictor H2
+technical_knowledge,Q12,1-5,Exploratory interaction-quality predictor
+explanation_clarity,Q13,1-5,Exploratory interaction-quality predictor
+options_clarity,Q14,1-5,Retained separately after weak coherence with Q15
+cost_warranty_clarity,Q15,1-5,Retained separately after weak coherence with Q14
+turnaround_acceptability,Q16,1-5 or structural N/A,H5 subset predictor
+process_ease,Q17,1-5,Exploratory service-process predictor
+resolution_status,Q18,Full/partial/unresolved/not sure,Indicator coded; full reference
+resolution_partial,Derived,0/1,Partial versus full resolution
+resolution_unresolved,Derived,0/1,Unresolved versus full resolution
+overall_satisfaction,Q19,1-10,Continuous RQ1 outcome and source of RQ2 target
+dissatisfied_primary,Derived,1 if Q19 <= 5,Primary classification target
+dissatisfied_sensitivity,Derived,1 if Q19 <= 6,Sensitivity classification target
+reuse_intention,Q20,1-10,Convergent descriptive evidence only
+recommendation_intention,Q21,1-10,Convergent descriptive evidence only
+positive_comment,Q22,Free text,Supplementary thematic evidence
+negative_comment,Q23,Free text,Supplementary thematic evidence
+improvement_comment,Q24,Free text,Supplementary recommendation evidence
+biggest_factor,Q25,Categorical,Descriptive comparison with model priorities

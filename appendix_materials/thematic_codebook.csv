@@ -1,0 +1,12 @@
+theme,include_when,distinguish_from
+appointment_access,Booking finding or obtaining support,Waiting after arrival
+waiting,Queue duration appointment delay or perceived acceptability,Repair turnaround after case acceptance
+communication_updates,Clarity consistency progress information and expectation setting,Technical detail without a communication judgement
+staff_helpfulness,Willingness to assist empathy and responsiveness,Knowledge or diagnostic competence alone
+technical_knowledge,Perceived competence confidence or diagnostic capability,Explanation clarity without a competence judgement
+explanation_clarity,Understanding diagnosis rationale repair or next steps,General friendliness
+options_cost_transparency,Repair or replacement choices price warranty or AppleCare clarity,Price dissatisfaction without a clarity issue
+resolution_escalation,Full partial or non-resolution ownership follow-up or escalation,Waiting without an outcome consequence
+turnaround,Time to repair collection or completion,Initial queue waiting
+process_ease_hand_offs,Journey complexity repetition transfers forms or coordination,One isolated interaction-quality comment
+other,Relevant content not represented above,Vague content without analytical meaning

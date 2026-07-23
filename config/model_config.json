@@ -1,0 +1,32 @@
+{
+  "random_seed": 20260713,
+  "primary_dissatisfaction_max_score": 5,
+  "sensitivity_dissatisfaction_max_score": 6,
+  "probability_threshold": 0.5,
+  "outer_folds": 5,
+  "outer_repeats": 2,
+  "inner_folds": 3,
+  "selection_metric": "average_precision",
+  "logistic": {
+    "solver": "liblinear",
+    "max_iter": 5000,
+    "C_grid": [0.1, 0.3, 1.0, 3.0],
+    "class_weight_grid": [null, "balanced"]
+  },
+  "random_forest": {
+    "n_estimators": 100,
+    "max_depth": 3,
+    "min_samples_leaf": 3,
+    "class_weight": "balanced",
+    "permutation_repeats": 20
+  },
+  "elastic_net": {
+    "l1_ratio": [0.1, 0.5, 0.9],
+    "alpha_min_log10": -3,
+    "alpha_max_log10": 1,
+    "n_alphas": 80,
+    "cv": 5,
+    "max_iter": 50000
+  },
+  "expected_input_sha256": "0f442bd5b82ca66564ff92f3544e53985ed23839f5f870aecc07442d874f50c4"
+}

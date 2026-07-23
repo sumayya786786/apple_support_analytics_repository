@@ -1,0 +1,12 @@
+Analysis complete. Outputs written to: /mnt/data/apple_support_analytics_repository_complete/outputs
+Elapsed seconds: 20.89
+elapsed=0:22.73
+test_core_audit (tests.test_pipeline.PipelineOutputTests.test_core_audit) ... ok
+test_expected_figures_exist (tests.test_pipeline.PipelineOutputTests.test_expected_figures_exist) ... ok
+test_primary_ols_reconciliation (tests.test_pipeline.PipelineOutputTests.test_primary_ols_reconciliation) ... ok
+test_reported_text_counts (tests.test_pipeline.PipelineOutputTests.test_reported_text_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+OK
