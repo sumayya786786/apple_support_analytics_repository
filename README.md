@@ -12,8 +12,6 @@ pip install -r requirements.txt
 python run_all.py --input data/apple_support_survey_data.xlsx
 ```
 
-Place the anonymised `Responses` worksheet at `data/apple_support_survey_data.xlsx`. The pipeline verifies the schema and SHA-256 checksum, never overwrites the input, and writes aggregate results to `outputs/`.
-
 ## Complete analytical coverage
 
 The pipeline generates:
